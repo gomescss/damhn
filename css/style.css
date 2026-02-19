@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    
+}
+
+.background {
+    background: linear-gradient(to top, #10002b, #270249);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabecalho {
+    display: flex;
+    gap: 7rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.cabecalho a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    position: relative;
+}
+
+.cabecalho a:hover {
+    color: #9d4edd;
+    transition: o.3s all;
+}
+
+.cabecalho a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: " ";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #9d4edd;
+    transition: width 0.3s ease 0s, left 0.3s ease;
+}
+
+.cabecalho a:hover:after {
+    width: 100%;
+    left: 0;
+}
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    background: transparent;
+    border: 3px solid #c77dff;
+    color: #c77dff;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    padding: 4px;
+}
+
+
+button {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    padding: 10px;
+    width: 160px;
+    background: transparent;
+    border: 2px solid #c77dff;
+    border-radius: 50px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: #6247aa;
+    background-color: #6247aa;
+    color: #000;
+    transition: 0.5s;
+}
+
+strong {
+    color: #dc93f6;
+}
+
+.box-text {
+    font-family: 'Mukta', sans-serif;
+    padding: 250px 0 0 180px;
+}
+
+.text h3 {
+    color: white;
+    font-size: 28px;
+}
+
+.text h1 {
+    color: white;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.text p {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.social a {
+    font-size: 30px;
+    color: #dc93f6;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* .code-icon a {
+    font-size: 300px ;
+    padding: 100px 0 0 1260px; TENTAR TERMINAR ISSO AQUI
+} */
